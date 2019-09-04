@@ -11,7 +11,7 @@ Just create an alias and use it anywhere.
 Usage:
 ```
 var classy = new Classy({
-  'example': ['col-md-4','px-4','too many classes goes like this'],
+  'example': ['col-md-4', 'px-4', 'too many classes goes like this'],
   'another-example': ['col-md-5', 'too many classes goes like this]
 });
 ```
