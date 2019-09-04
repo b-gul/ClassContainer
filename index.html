@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <head>
+      <!-- CSS framework import -->
+      <style>
+        /* Assume that those classes are provided by bootstrap or some framework */
+        .test {
+          width: 100px;
+          height: 100px;
+          background: yellow;
+        }
+
+        .another {
+          border: 5px solid #000;
+        }
+      </style>
+      <script src="./classy.js"></script>
+    </head>
+    <body>
+        <div id="example">
+
+        </div>
+        <div id="another-example">
+
+        </div>
+        <script>
+        var classy = new Classy({
+        'example': ['test','another'],
+        'another-example': ['test']
+        });
+        </script>
+    </body>
+</html>
