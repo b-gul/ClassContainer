@@ -7,7 +7,6 @@ var Classy = (function() {
   
   /**
    * @param {Object} index Hold class container
-   *
    */
   function Classy(index) {
     for (var key in index) {
