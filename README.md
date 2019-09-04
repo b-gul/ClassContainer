@@ -6,7 +6,7 @@ You are feel free to edit maybe turn this cl
 <script src="./classy.js"></script>
 ```
 
-Into your app template in your MVC framework
+Add this into your app template file in your MVC framework
 Usage:
 ```
 var classy = new Classy({
