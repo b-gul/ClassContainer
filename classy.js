@@ -14,8 +14,8 @@ var Classy = (function() {
       var elem = document.getElementsByClassName(key);
       for (var i=0; i < elem.length; i++) {
         elem[i].classList.add(...index[key]);
-	    }
-	  }
+			}
+		}
 	}
 
 	return Classy;
