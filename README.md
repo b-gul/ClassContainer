@@ -7,11 +7,12 @@ You are feel free to edit maybe turn this cl
 ```
 
 Add this into your app template file in your MVC framework
+Just create an alias and use it anywhere.
 Usage:
 ```
 var classy = new Classy({
-  'example': ['col-md-4','px-4'],
-  'another-example': ['col-md-5']
+  'example': ['col-md-4','px-4','too many classes goes like this'],
+  'another-example': ['col-md-5', 'too many classes goes like this]
 });
 ```
 and then get rid of too many classes
