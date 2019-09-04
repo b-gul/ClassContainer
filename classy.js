@@ -6,13 +6,17 @@
 var Classy = (function() {
   
   /**
-   * @param {Object} index Hold class container
-   */
+	 * @param {Object} index Hold class container
+	 *
+	 */
 	function Classy(index) {
-  	for (var key in index) {
-     	document.getElementById(key).classList.add(...index[key]);
-    }
-  }
+	  for (var key in index) {
+	    var elem = document.getElementsByClassName(key);
+	    for (var i=0; i < elem.length; i++) {
+	      elem[i].classList.add(...index[key]);
+	    }
+	  }
+	}
 
   return Classy;
 }());
