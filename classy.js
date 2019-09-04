@@ -18,5 +18,5 @@ var Classy = (function() {
 	  }
 	}
 
-  return Classy;
+	return Classy;
 }());
