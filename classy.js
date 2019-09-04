@@ -12,11 +12,11 @@ var Classy = (function() {
   function Classy(index) {
     for (var key in index) {
       var elem = document.getElementsByClassName(key);
-      for (var i=0; i < elem.length; i++) {
+      for (var i = 0; i < elem.length; i++) {
         elem[i].classList.add(...index[key]);
-			}
-		}
-	}
+}
+}
+}
 
 	return Classy;
 }());
